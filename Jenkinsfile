@@ -24,7 +24,7 @@ pipeline{
         stage('Delete'){
            steps{
                 sh "./scripts/delete.sh"
-            }*/
-        }
+            }
+        }*/
     }
 }
