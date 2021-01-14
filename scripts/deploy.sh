@@ -1,6 +1,8 @@
 #!/bin/bash
 cd K8s/
 
+docker login
+
 sudo kubectl apply -f ./backend/backend.yaml
 sudo kubectl apply -f ./database/database.yaml
 sudo kubectl apply -f ./database/databasepersistent.yaml
