@@ -15,16 +15,16 @@ pipeline{
             steps{
              sh "./scripts/push.sh"
             }
-        }*/
+        }
         stage('Deploy'){
            steps{
                 sh "./scripts/deploy.sh"
             }
-        }/*
+        }*/
         stage('Delete'){
            steps{
                 sh "./scripts/delete.sh"
             }
-        }*/
+        }
     }
 }
