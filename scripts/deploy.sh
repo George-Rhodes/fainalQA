@@ -2,7 +2,7 @@
 cd K8s/
 
 docker login
-
+echo $BUILD_NUMBER
 sudo kubectl apply -f ./backend/backend.yaml
 sudo kubectl apply -f ./database/database.yaml
 sudo kubectl apply -f ./database/databasepersistent.yaml
