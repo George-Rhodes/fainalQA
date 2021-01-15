@@ -9,5 +9,5 @@ sudo kubectl apply -f ./database/databasepersistent.yaml
 sudo kubectl apply -f ./front-end/front-end.yaml
 sudo kubectl apply -f ./nginx/nginx.yaml
 
-#kubectl rollout restart -f ./backend/backend.yaml
-#kubectl rollout restart -f ./front-end/font-end.yaml
+#kubectl rollout restart -f default/backend
+#kubectl rollout restart -f default/frontend
