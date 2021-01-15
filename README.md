@@ -192,6 +192,7 @@ Cost analysis during development (last 7 days):
 
 Jenkins:
 
+We used Jenkins to build and push and changes to the app. We did this through the use of a Jenkinsfile, using stages to setup the Terraform and Kubernetes clusters, build the application using Docker, push the updates to Dockerhub and then finally deploy the app on the Kubernetes clusters. To do this, we needed to setup a webhook on the GitHub repo to let Jenkins know to start a new build of the app as well as installing plugins for Docker so Jenkins could push the changes up to Dockerhub.
 
 
 Effective CI pipeline:
