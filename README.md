@@ -174,13 +174,13 @@ Our aim for the project is to keep deployments costs as low as possible whilst d
 We have broken down the estimated costs to deploy the PetClinic application on a monthly basis within Azure. We have displayed the costs of deployment through the 3 saving options (Pay as you go, 1 uear reserved and 3 year reserved:
 
 Pay as you go:
-![Imgur](https://i.imgur.com/iXIvBPd.png)
+![Imgur](https://i.imgur.com/1Kl3ukP.png)
 
 1yr reserved (55% discount):
-![Imgur](https://i.imgur.com/zT9ijWJ.png)
+![Imgur](https://i.imgur.com/aaftzon.png)
 
 3yr reserved (70% discount):
-![Imgur](https://i.imgur.com/DENuh5b.png)
+![Imgur](https://i.imgur.com/29jK03G.png)
 
 
 
